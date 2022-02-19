@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Left Sidebar
+ * Имя шаблона: левая боковая панель
  */
 
 get_header();
@@ -44,7 +44,7 @@ get_header();
 
                             get_template_part( 'template-parts/content', 'page' );
 
-                            // If comments are open or we have at least one comment, load up the comment template.
+                            // Если комментарии открыты или у нас есть хотя бы один комментарий, загрузите шаблон комментариев.
                             if ( comments_open() || get_comments_number() ) :
                                 comments_template();
                             endif; // End of the loop.

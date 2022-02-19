@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying search results pages
+ * Шаблон для отображения страниц результатов поиска
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
  *
@@ -16,7 +16,7 @@ get_header();
 				<div class="col-lg-12">
 					<h1>
 						<?php
-					/* translators: %s: search query. */
+					/* Переводчики:% s: поисковый запрос.*/
 					printf( esc_html__( 'Search Results for: %s', 'wpbstarter' ), '<span>' . get_search_query() . '</span>' );
 					?>
 					</h1>
@@ -39,14 +39,14 @@ get_header();
 							<?php if ( have_posts() ) : ?>
 
 								<?php
-								/* Start the Loop */
+								/* Запускать петлю*/
 								while ( have_posts() ) :
 									the_post();
 
 									/**
-									 * Run the loop for the search to output the results.
-									 * If you want to overload this in a child theme then include a file
-									 * called content-search.php and that will be used instead.
+									 *Запустите петлю для поиска, чтобы вывести результаты.
+									 * Если вы хотите перегрузить это в детской теме, то включите файл
+									 * называется Content-search.php и вместо этого будет использоваться.
 									 */
 									get_template_part( 'template-parts/content', 'search' );
 
