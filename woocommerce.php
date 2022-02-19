@@ -1,11 +1,11 @@
 <?php
 /**
- * The template for displaying Woocommerce Product
+ *Шаблон для отображения продукта Woocommerce
  *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site may use a
- * different template.
+ * Это шаблон, который отображает все страницы по умолчанию.
+ * Обратите внимание, что это конструкция WordPress страниц
+ * и что другие «страницы» на вашем сайте WordPress могут использовать
+ * Различный шаблон.
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *

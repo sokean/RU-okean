@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all single posts
+ * Шаблон для отображения всех отдельных сообщений
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
@@ -25,14 +25,14 @@ get_header();
 				<div class="blog-entry-meta">
 					<?php
 						wpbstarter_posted_on();
-						// wpbstarter_posted_by();
+						//wpbstarter_posted_by.();
 					?>
 				</div><!-- .entry-meta -->
 				
 				</div>
 			</div>
 		</div>
-	</div> <!-- Title area end -->
+	</div> <!-- Заголовок -->
 
 
 	<div id="primary" class="content-area wpbstarter-content-area-padding">
@@ -46,7 +46,7 @@ get_header();
 
 							the_post_navigation();
 
-							// If comments are open or we have at least one comment, load up the comment template.
+							// Если комментарии открыты или у нас есть хотя бы один комментарий, загрузите шаблон комментариев.
 							if ( comments_open() || get_comments_number() ) :
 							comments_template();
 							endif;
@@ -63,7 +63,7 @@ get_header();
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-	<?php endwhile; // End of the loop. ?>
+	<?php endwhile; // Конец цикла. ?>
 
 <?php
 get_footer();
