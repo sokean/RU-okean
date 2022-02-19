@@ -1,23 +1,23 @@
-# ignore everything in the root except the "wp-content" directory.
+# Игнорируйте все в корне, за исключением каталога «WP-Content».
 !wp-content/
 
-# ignore everything in the "wp-content" directory, except:
-# "mu-plugins", "plugins", "themes" directory
+# Игнорируйте все в каталоге «WP-Content», кроме:
+# «Му-плагины», «Плагины», каталог «Темы»
 wp-content/*
 !wp-content/mu-plugins/
 !wp-content/plugins/
 !wp-content/themes/
 
-# ignore these plugins
+# игнорируйте эти плагины
 wp-content/plugins/hello.php
 
-# ignore specific themes
+# игнорировать конкретные темы
 wp-content/themes/twenty*/
 
-# ignore node dependency directories
+# Игнорировать каталоги зависимости узла
 node_modules/
 
-# ignore log files and databases
+# Игнорировать файлы журнала и базы данных
 *.log
 *.sql
 *.sqlite
