@@ -48,13 +48,9 @@
  z-index:9999;
  left:0;
  right:0;
-
  background: #f4faf836;
  border: 1px solid #0d52f1;
-/*
- background:#df2424;
- border:1px solid #eee;
- */transition:box-shadow,border,background .5s ease-in-out
+ transition:box-shadow,border,background .5s ease-in-out
 }
 .sina-nav ul,
 .sina-nav ul ul {
