@@ -999,9 +999,10 @@ object {
 }
 
 .widget-area .widget {
+  background: linear-gradient(to bottom left, #efefe359, #f2fbfa);)  ;
   border: 1px solid #0a11f0;
   padding: 24px 31px;
-  margin-bottom: 25px;
+  margin-bottom: 11px;
   box-shadow: 0 0px 5px #6beac1;
   transition: 0.4s;
 }
